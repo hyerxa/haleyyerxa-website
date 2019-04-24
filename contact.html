@@ -29,11 +29,14 @@
         <form>
             Name:<br>
             <input id="contact" type="text" name="name"><br>
+            <label for="contact"></label>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input type="text" name="email" id="email"><br>
+            <label for="email"></label>
             Comments or Questions:<br>
-            <textarea name="message" rows="10" cols="30">Type your message here.
+            <textarea name="message" id="message" rows="10" cols="30">Type your message here.
             </textarea>
+            <label for="message"></label>
             <br>
             <button type="button" onclick="alert('Thank you for your input!')">Submit</button>
         </form>
