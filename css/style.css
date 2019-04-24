@@ -20,7 +20,7 @@ h1.top {
 
 h2 {
     font-family: sans-serif;
-    color: cadetblue;
+    color: #417272;
     position: relative;
     line-height: 1.5;
     z-index: 0;
@@ -29,7 +29,7 @@ h2 {
 
 h3 {
     font-family: sans-serif;
-    color: cadetblue;
+    color: #417272;
     position: relative;
     line-height: 1.5;
     z-index: 0;
@@ -38,7 +38,7 @@ h3 {
 
 h4 {
     font-family: sans-serif;
-    color: cadetblue;
+    color: #417272;
     position: relative;
     line-height: 1.5;
     z-index: 0;
@@ -84,6 +84,11 @@ div.top {
 
 .moved-left {
     height: 100vh;
+    position: absolute;
+    left: 10%;
+}
+.moved-left-samples {
+    height: 230vh;
     position: absolute;
     left: 10%;
 }
@@ -147,13 +152,13 @@ div.top {
 }
 
 a:link {
-    color: cornflowerblue;
+    color: #0C566D;
     line-height: 1.5;
     font-family: sans-serif;
 }
 
 a:visited {
-    color: cadetblue;
+    color: #417272;
     line-height: 1.5;
     font-family: sans-serif;
 }
@@ -195,7 +200,7 @@ ul {
 
 li {
     font-family: sans-serif;
-    color: steelblue;
+    color: #004A62;
     line-height: 1.5;
     font-size: 1.2vw;
 }
@@ -330,7 +335,7 @@ div.gallery2 {
 }
 
 a {
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 .images {
