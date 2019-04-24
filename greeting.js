@@ -15,4 +15,4 @@ if (hourNow > 18) {
     greeting = '';
 }
 
-document.write('<h2>' + greeting + " Welcome to my website! Here you can find all you need to know about me." + '</h2>');
+document.getElementById('greeting').innerHTML = greeting + " Welcome to my website! Here you can find all you need to know about me.";
