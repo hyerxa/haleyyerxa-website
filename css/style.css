@@ -327,11 +327,11 @@ div.gallery:hover {
 }
 
 div.gallery2 {
-    border: 1vw solid skyblue;
+    border: 0.5vw solid skyblue;
     float: right;
     height: auto;
-    width: 40%;
-    margin: 1vw;
+    width: 45%;
+    margin: 0.5vw;
 }
 
 a {
