@@ -1,6 +1,12 @@
-html {
-    height: 100%;
+body {
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    background-image: url(background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
 h1 {
     font-family: sans-serif;
     color: darkblue;
@@ -51,9 +57,13 @@ h4 {
 
 div.top {
     position: relative;
-    height: 30vh;
+    height: 35.5vh;
     z-index: 1500;
-    overflow: auto;
+    overflow: hidden;
+    background-image: url(background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 27vh;
+    font-size: 0;
 }
 
 .bottom {
@@ -66,6 +76,7 @@ div.top {
     border: 0.25vw solid #68B1CC;
     border-radius: 1vw;
     background: linear-gradient(to right, aliceblue, #68B1CC);
+    font-size: 0;
 }
 
 .left {
@@ -82,15 +93,28 @@ div.top {
     width: auto;
 }
 
+.left-chess {
+    float: left;
+    padding: 1vw;
+    width: 50vw;
+}
+
 .moved-left {
     height: 100vh;
-    position: absolute;
     left: 10%;
+    width: 85vw;
+    overflow: hidden;
+    position: relative;
 }
 .moved-left-samples {
     height: 230vh;
-    position: absolute;
+    position: relative;
+    width: 75vw;
     left: 10%;
+}
+
+label {
+    z-index: 100;
 }
 
 .right {
@@ -168,14 +192,6 @@ a:hover {
     line-height: 1.5;
 }
 
-body {
-    height = 100%;
-    background-image: linear-gradient(aliceblue, lightblue);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-
 p {
     font-family: sans-serif;
     color: dodgerblue;
@@ -213,6 +229,14 @@ li {
     width:  80%;
     margin: 0px auto;
     text-align: center;
+}
+
+.top-bar {
+    background-color: #417272;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 3vh;
+    border: 0.1vw solid midnightblue;
 }
 
 
@@ -272,6 +296,7 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2vh;
     width: 35%;
 }
 
@@ -305,6 +330,7 @@ form {
     content: "";
     clear: both;
     display: table;
+    height: 5vh;
 }
 
 div.gallery {
@@ -346,8 +372,7 @@ a {
 .acc-list {
     position: relative;
     width: 60%;
-    height: 100%;
-    bottom: 30px;
+    height: 100vh;
     float: left;
 }
 .text-image {
