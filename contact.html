@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="top">
-        <a href="index.html"><img src="images/logo.svg" alt="Logo" class="centerI" width="24%"></a>
+        <a href="index.html"><img src="images/logo.svg" alt="Logo" class="centerI"></a>
         <ul id="navigation">
           <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
           <li class="navItem"><a href="about.html" class="navLink">About Me</a></li>
@@ -27,16 +27,17 @@
     </div>
     <div class="formDiv">
         <form>
-            Name:<br>
+            <label for="contact">Name:</label>
+            <br>
             <input id="contact" type="text" name="name"><br>
-            <label for="contact"></label>
-            Email:<br>
+            <label for="email">Email: </label>
+            <br>
             <input type="text" name="email" id="email"><br>
-            <label for="email"></label>
-            Comments or Questions:<br>
+            <label for="message">Comments or Questions: </label>
+            <br>
             <textarea name="message" id="message" rows="10" cols="30">Type your message here.
             </textarea>
-            <label for="message"></label>
+
             <br>
             <button type="button" onclick="alert('Thank you for your input!')">Submit</button>
         </form>
