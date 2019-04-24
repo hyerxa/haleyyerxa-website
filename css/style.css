@@ -62,7 +62,7 @@ div.top {
     position: fixed;
     bottom: 0px;
     z-index: 1500;
-    height: 5vh;
+    height: 7vh;
     border: 0.25vw solid #68B1CC;
     border-radius: 1vw;
     background: linear-gradient(to right, aliceblue, #68B1CC);
@@ -119,7 +119,7 @@ div.top {
 
 .social {
     padding: 5px;
-    height: 4vh;
+    height: 6vh;
 }
 
 #greeting {
