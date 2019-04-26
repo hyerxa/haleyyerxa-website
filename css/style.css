@@ -89,7 +89,10 @@ div.top {
     text-decoration: none;
     bottom: 1.75vh;
     left: 1vw;
-    color: aliceblue;
+    color: #417272;
+    background-color: aliceblue;
+    padding: 0.5vh 0.5vw 0.5vh 0.5vw;
+    border-radius: 2vw;
 }
 
 #access:hover {
