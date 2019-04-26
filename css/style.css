@@ -86,13 +86,14 @@ div.top {
 
 #access {
     position: relative;
+    text-decoration: none;
     bottom: 1.75vh;
     left: 1vw;
     color: aliceblue;
 }
 
 #access:hover {
-    color: midnightblue;
+    text-decoration: underline;
     
 }
 
