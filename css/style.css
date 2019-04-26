@@ -3,9 +3,9 @@ body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: #040C4F;
+    background-image: linear-gradient(aliceblue, #055A5E);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 110%;
 }
 
 h1 {
@@ -161,7 +161,7 @@ div.top {
     border: 0.25vw solid #417272;
 }
 .moved-left-contact {
-    height: 100vh;
+    height: 10vh;
     position: relative;
     width: 80vw;
     left: 10%;
