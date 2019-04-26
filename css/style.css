@@ -1,8 +1,9 @@
 body {
     font-size: 0;
+    height: 100%;
     padding: 0;
     margin: 0;
-    background-image: url(background_image.jpg);
+    background-color: #040C4F;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -14,14 +15,7 @@ h1 {
     z-index: 0;
     line-height: 1.5;
     font-size: 3vw;
-}
-
-h1.top {
-    font-family: sans-serif;
-    color: darkblue;
-    position: relative;
-    z-index: 0;
-    line-height: 1.5;
+    text-decoration: underline;
 }
 
 h2 {
@@ -57,31 +51,35 @@ h4 {
 
 div.top {
     position: relative;
-    height: 35.5vh;
+    width: 80vw;
+    left: 10%;
+    height: 35vh;
     z-index: 1500;
     overflow: hidden;
     background-image: url(background_image.jpg);
     background-repeat: no-repeat;
-    background-size: 100vw 27vh;
+    background-size: 80vw 35vh;
     font-size: 0;
 }
 
 .bottom {
-    width:100%;
+    width:80vw;
     text-align:center;
     position: fixed;
+    left:10%;
     bottom: 0px;
     z-index: 1500;
     height: 7vh;
-    border: 0.25vw solid #68B1CC;
-    border-radius: 1vw;
-    background: linear-gradient(to right, aliceblue, #68B1CC);
+    border: 0.25vw solid #417272;
+    background: linear-gradient(to right, #03C3C7,#417272);
     font-size: 0;
 }
 
 .left {
     float: left;
-    padding: 1vw;
+    padding: 0.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vh;
     width: 30vw;
     height: auto;
 }
@@ -99,18 +97,77 @@ div.top {
     width: 50vw;
 }
 
-.moved-left {
-    height: 100vh;
+.moved-left-pro {
+    height: 120vh;
     left: 10%;
-    width: 85vw;
-    overflow: hidden;
+    width: 80vw;
     position: relative;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
 }
 .moved-left-samples {
-    height: 230vh;
+    height: 263vh;
     position: relative;
-    width: 75vw;
+    width: 80vw;
     left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-index {
+    height: 125vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-about {
+    height: 135vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-ed {
+    height: 150vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-exp {
+    height: 80vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-acc {
+    height: 130vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
+}
+.moved-left-contact {
+    height: 100vh;
+    position: relative;
+    width: 80vw;
+    left: 10%;
+    background-color:lightcyan;
+    padding: 2vw;
+    border: 0.25vw solid #417272;
 }
 
 label {
@@ -160,12 +217,10 @@ label {
     overflow: hidden;
 }
 
-.next2 {
-    position: relative;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+.bottom-border {
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom: 0.25vh solid #417272;
 }
 
 .list {
@@ -223,20 +278,22 @@ li {
 
 #navigation {
     list-style-type: none;
-    top: 10px;
-    padding: 0;
+    top: 1.5vh;
+    padding-left: 2vw;
     z-index: 900;
-    width:  80%;
+    width:  100%;
     margin: 0px auto;
     text-align: center;
 }
 
 .top-bar {
-    background-color: #417272;
-    width: 100vw;
+    background: linear-gradient(to right, #03C3C7,#417272);
+    width: 80vw;
+    left: 10%;
+    position: relative;
     height: 10vh;
-    margin-top: 3vh;
-    border: 0.1vw solid midnightblue;
+    border: 0.25vw solid #417272;
+    border-bottom: none;
 }
 
 
@@ -296,14 +353,22 @@ form {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2vh;
-    width: 35%;
+    margin-top: 7vh;
+    width: 35vw;
+}
+
+.logo {
+    display: block;
+    margin-top: 7vh;
+    width: 35vw;
+    margin-left: 2vw;
 }
 
 .rightI {
     float: right;
     width: 20vw;
-    padding: 1vw;
+    margin: 1vw;
+    padding: 0.5vw;
 }
 
 .leftP {
@@ -386,7 +451,7 @@ a {
 div.desc {
     padding: 1vw;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     background-color: aliceblue;
 }
 
