@@ -108,12 +108,18 @@ div.top {
     float: left;
     padding: 0.5vw;
     margin-right: 1.5vw;
-    margin-top: 1.5vh;
-    width: 30vw;
-    height: auto;
+    width: 25vw;
 }
 
-.left-samples {
+#left-samples1 {
+    float: left;
+    padding: 1vw;
+    height: 10vw;
+    width: auto;
+}
+
+
+#left-samples2 {
     float: left;
     padding: 1vw;
     height: 15vw;
@@ -126,87 +132,22 @@ div.top {
     width: 50vw;
 }
 
-.moved-left-pro {
-    height: 120vh;
-    left: 10%;
-    width: 80vw;
-    position: relative;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-samples {
-    height: 263vh;
+.center-screen {
     position: relative;
     width: 80vw;
     left: 10%;
     background-color:lightcyan;
     padding: 2vw;
     border: 0.25vw solid midnightblue;
-}
-.moved-left-index {
-    height: 125vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-about {
-    height: 135vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-ed {
-    height: 150vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-exp {
-    height: 80vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-acc {
-    height: 130vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
-}
-.moved-left-contact {
-    height: 120vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
+    overflow: hidden;
 }
 
-.moved-left-access {
-    height: 110vh;
-    position: relative;
-    width: 80vw;
-    left: 10%;
-    background-color:lightcyan;
-    padding: 2vw;
-    border: 0.25vw solid midnightblue;
+#team {
+    float: left;
+    padding: 0.5vw;
+    margin-right: 1.5vw;
+    margin-top: 1.5vh;
+    width: 30vw;
 }
 
 label {
@@ -464,10 +405,10 @@ a {
 
 .images {
     width: 40%;
+    position: relative;
     float: right;
 }
 .acc-list {
-    position: relative;
     width: 60%;
     height: 100vh;
     float: left;
@@ -502,7 +443,7 @@ a.noUnderline {
 }
 
 #scratch {
-    font-size: 16px;
+    font-size: 1.25vw;
 }
 
 #achievements {
