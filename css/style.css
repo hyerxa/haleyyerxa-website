@@ -100,6 +100,10 @@ div.top {
     
 }
 
+#video {
+    width: 40vw;
+}
+
 .left {
     float: left;
     padding: 0.5vw;
