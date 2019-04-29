@@ -1,3 +1,9 @@
+<!--
+Haley Yerxa
+04/29/2019
+My portfolio website
+This page is the home page, contains navigation to the other pages of the site
+-->
 <!doctype html>
 <html lang=en>
   <head>
@@ -6,34 +12,36 @@
     <!-- Home page -->
     <link rel="stylesheet" href="css/style.css">
   </head>
+    
   <body>
     <!-- Next section creates link to home page through logo and creates top navigation bar-->
-      
     <div class="top"> 
       <a href="index.html"><img src="images/logo.svg" alt="Logo" class="logo"></a>
-        </div>
-        <div class = "top-bar">
-        <ul id="navigation">
-          <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
-          <li class="navItem"><a href="about.html" class="navLink">About Me</a></li>
-          <li class="navItem"><a href="education.html" class="navLink">Education</a></li>
-          <li class="navItem"><a href="samples.html" class="navLink">Work Samples</a></li>
-          <li class="navItem"><a href="experience.html" class="navLink">Work Experience</a></li>
-          <li class="navItem"><a href="accomplishments.html" class="navLink">Accomplishments</a></li>
-          <li class="navItem"><a href="profiles.html" class="navLink">Profile Links</a></li>
-          <li class="navItem"><a href="contact.html" class="navLink">Contact Me</a></li>
-        </ul>
-        </div>
+    </div>
+    <div class = "top-bar">
+      <ul id="navigation">
+        <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
+        <li class="navItem"><a href="about.html" class="navLink">About Me</a></li>
+        <li class="navItem"><a href="education.html" class="navLink">Education</a></li>
+        <li class="navItem"><a href="samples.html" class="navLink">Work Samples</a></li>
+        <li class="navItem"><a href="experience.html" class="navLink">Work Experience</a></li>
+        <li class="navItem"><a href="accomplishments.html" class="navLink">Accomplishments</a></li>
+        <li class="navItem"><a href="profiles.html" class="navLink">Profile Links</a></li>
+        <li class="navItem"><a href="contact.html" class="navLink">Contact Me</a></li>
+      </ul>
+    </div>
      
-      <div class="center-screen">
-       <!--Javascript link for greeting that changes depending on time of day -->
-       <h2 id="greeting">Welcome to my website!</h2>
-       <script src = "greeting.js"></script>
+    <div class="center-screen"> <!-- This div holds the content of the page -->
+        
+      <!--Javascript link for greeting that changes depending on time of day -->
+      <h2 id="greeting">Welcome to my website!</h2>
+      <script src = "greeting.js"></script>
       
       <!-- Next to create gallery of image links to various pages on site -->
       
-      <div class="gallery-container">
-        <div class="gallery">
+      <div class="gallery-container"> <!-- This div holds all of the images (links) -->
+        
+        <div class="gallery"> <!-- gallery class are divs that hold the image and subtitle -->
           <a href="about.html" class="noUnderline">
             <img src="images/prom.JPG" alt="Prom photo" style="width:100%">
             <div class="desc">About Me</div>
@@ -82,21 +90,23 @@
           </a>
         </div>
       </div>
+    </div>
+    <!-- Bottom creates fixed footer with social media links -->
+    
+    <div class="bottom"> 
+      
+      <div class="center">
+        <a href="http://www.linkedin.com/in/haley-y-37a752b9"><img src="images/linkedin.png" class="social" alt="linkdIn"></a>
+        <a href="https://www.instagram.com/haleyyerxa/"><img src="images/instagram.png" class="social" alt="instagram"></a>
+        <svg height="30" width="120" class="social">
+          <rect x="0" y="0" rx="10" ry="20" height="23" width="110" style="fill:aliceblue;stroke:lightblue;stroke-width:5;stroke-opacity:0.75" />
+          <text fill="#0088aa" font-size="14" font-family="Consolas" x="15" y="15">haleyYerxa;</text>
+        </svg>
+        <a href="https://github.com/hyerxa"><img src="images/github.svg" class="social" alt="github"></a>
+        <a href="https://www.hackerrank.com/haley_yerxa24"><img src="images/hackerrank.svg" class="social" alt="hackerrank"></a>
+        <a href="accessibility.html" id="access">Accessibility</a>
       </div>
-      <!-- Bottom creates fixed footer with social media links -->
-      <div class="push"></div>
-      <div class="bottom"> 
-        <div class="center">
-          <a href="http://www.linkedin.com/in/haley-y-37a752b9"><img src="images/linkedin.png" class="social" alt="linkdIn"></a>
-          <a href="https://www.instagram.com/haleyyerxa/"><img src="images/instagram.png" class="social" alt="instagram"></a>
-          <svg height="30" width="120" class="social">
-            <rect x="0" y="0" rx="10" ry="20" height="23" width="110" style="fill:aliceblue;stroke:lightblue;stroke-width:5;stroke-opacity:0.75" />
-            <text fill="#0088aa" font-size="14" font-family="Consolas" x="15" y="15">haleyYerxa;</text>
-          </svg>
-          <a href="https://github.com/hyerxa"><img src="images/github.svg" class="social" alt="github"></a>
-          <a href="https://www.hackerrank.com/haley_yerxa24"><img src="images/hackerrank.svg" class="social" alt="hackerrank"></a>
-          <a href="accessibility.html" id="access">Accessibility</a>
-        </div>
-      </div>
+        
+    </div>
   </body>
 </html>
