@@ -179,13 +179,6 @@ label {
     position: relative;
 }
 
-.push {
-    position: absolute;
-    height: 5vh;
-    width: 100%;
-}
-
-
 .social {
     padding: 5px;
     height: 6vh;
