@@ -1,10 +1,3 @@
-/*var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
-ctx.strokeStyle = "#81AEBE";
-ctx.moveTo(0,15);
-ctx.lineTo(950,15);
-ctx.stroke();*/
-
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
