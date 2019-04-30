@@ -148,7 +148,8 @@ div.top { /* div for top bar with logo and image */
     padding: 2vw;
     border: 0.25vw solid midnightblue;
     overflow: hidden;
-    margin-bottom: 7vh; 
+    margin-bottom: 7vh;
+    border-bottom: none;
 }
 
 #team {
