@@ -4,12 +4,15 @@ Haley Yerxa
 My portfolio website
 This page is the style sheet, contains styling of entire website
 */
+
+/* Unless otherwise noted, all techniques were learned from W3 Schools and modified and implemented to achieve the desired results for my webiste. */
+
 body {
     font-size: 0;
     height: 100%;
     padding: 0;
     margin: 0;
-    background-image: linear-gradient(aliceblue, #055A5E);
+    background-image: linear-gradient(aliceblue, #055A5E); /* Makes the background a linear-gradient top-down */
     background-repeat: no-repeat;
     background-size: 100% 110%;
 }
@@ -20,13 +23,13 @@ h1 {
     position: relative;
     z-index: 0;
     line-height: 1.5;
-    font-size: 3vw;
+    font-size: 3vw; /* As much as possible, vw and vh were used to make the page scalable */
     text-decoration: underline;
 }
 
 h2 {
     font-family: sans-serif;
-    color: #417272;
+    color: #417272; /* hex color codes were found on https://htmlcolorcodes.com/*/
     position: relative;
     z-index: 0;
     font-size: 2vw;
@@ -48,7 +51,6 @@ p {
     font-size: 1.25vw;
 }
 
-
 h4 {
     font-family: sans-serif;
     color: #417272;
@@ -62,9 +64,9 @@ h4 {
     font-size: 2vw;
 }
 
-div.top {
+div.top { /* div for top bar with logo and image */
     position: relative;
-    width: 80vw;
+    width: 80vw; /* Making it take up 80vw (80% of page) but moving it over 10% places it in the middle with space on each side*/ 
     left: 10%;
     height: 35vh;
     z-index: 1500;
@@ -90,7 +92,7 @@ div.top {
     font-size: 0;
 }
 
-#access {
+#access { /* link to accessibility page */
     position: relative;
     text-decoration: none;
     bottom: 1.75vh;
@@ -137,8 +139,8 @@ div.top {
     padding: 1vw;
     width: 50vw;
 }
-
-.center-screen {
+ 
+.center-screen { /* used to center the content of each page */
     position: relative;
     width: 80vw;
     left: 10%;
@@ -350,12 +352,6 @@ form {
     padding: 0.5vw;
 }
 
-.leftP {
-    left: right;
-    width: 700px;
-    padding: 10px;
-}
-
 .usual {
     font-family: sans-serif;
     color:darkslateblue;
@@ -448,7 +444,7 @@ a.noUnderline {
     font-size: 2vw;
 }
 
-#scratch {
+.scratch {
     font-size: 1.25vw;
 }
 
